@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NewTestTest">
+        <methods>
+          <include name="beforeTestTest"/>
+          <include name="terminateBrowserTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="bTest"/>
+          <include name="afterClass"/>
+          <include name="fTest"/>
+          <include name="d_testTest"/>
+          <include name="goBackToHomepageTest"/>
+          <include name="verifyTitleTest"/>
+          <include name="afterTestTest"/>
+          <include name="afterTest"/>
+          <include name="cTest"/>
+          <include name="f_testTest"/>
+          <include name="launchBrowserTest"/>
+          <include name="beforeMethod"/>
+          <include name="atestTest"/>
+          <include name="afterSuite"/>
+          <include name="dTest"/>
+          <include name="a_testTest"/>
+          <include name="ztestTest"/>
+          <include name="registerTest"/>
+          <include name="aTest"/>
+          <include name="verifyHomepageTitleTest"/>
+          <include name="b_testTest"/>
+          <include name="supportTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- NewTestTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
